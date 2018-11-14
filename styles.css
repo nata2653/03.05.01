@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(255, 146, 7);
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/*Menulinje*/
+
+/* unvisited link */
+a:link {
+    color: grey;
+    text-decoration: none;
+
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+    text-decoration: none;
+    background-color: rgba(255, 165, 0, 0.83);
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+a {
+    font-size: 2rem;
+    margin: 20px;
+    padding: 2px;
+    font-weight: 100;
+    line-height: 5rem;
+    border: 2px black none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#link a {
+    font-size: 2rem;
+    margin: 20px;
+    padding: 2px;
+    font-weight: 100;
+    line-height: 5rem;
+    border: 2px black none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navne {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+#image {
+    overflow: hidden;
+}
+
+#personas img {
+    width: 500px;
+}
